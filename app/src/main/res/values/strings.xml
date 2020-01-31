@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">To Do App</string>
+    <string name="string_hello">Title</string>
+    <string name="string_todo">This is to do view!</string>
+    <string name="string_old">This is old to do view!</string>
+    <string name="string_future">This is future plans view!</string>
+    <string name="string_tvOld">This is list of finished to-do\'s!</string>
+    <string name="string_tvFuture">This is list of big plans and strategies for the future!</string>
+    <string name="string_et_hintTitle">Title</string>
+    <string name="string_et_hintDate">Date</string>
+    <string name="string_et_hintTime">Time</string>
+    <string name="string_et_hintDesc">What do you plan to do?</string>
+    <string name="string_btnCreateToDo">CREATE TO-DO</string>
+    <string name="string_rbtnToDo">To-Do</string>
+    <string name="string_rbtnFuture">For Future</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

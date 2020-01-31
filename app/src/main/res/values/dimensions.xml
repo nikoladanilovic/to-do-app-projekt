@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="dimen_sideMarginesInputFr">10dp</dimen>
+    <dimen name="dimen_tvInputSize">20sp</dimen>
+    <dimen name="dimen_rvTopMargin">50dp</dimen>
+    <dimen name="dimen_inputUItopMarigin">50dp</dimen>
+</resources>

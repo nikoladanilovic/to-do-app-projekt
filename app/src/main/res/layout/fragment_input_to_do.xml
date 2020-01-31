@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".InputToDoFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <EditText
+        android:id="@+id/etTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen_inputUItopMarigin"
+        android:layout_marginLeft="@dimen/dimen_sideMarginesInputFr"
+        android:layout_marginRight="@dimen/dimen_sideMarginesInputFr"
+        android:hint="@string/string_et_hintTitle"
+        android:inputType="text"
+        />
+
+    <EditText
+        android:id="@+id/etDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/etTitle"
+        android:layout_marginLeft="@dimen/dimen_sideMarginesInputFr"
+        android:layout_marginRight="@dimen/dimen_sideMarginesInputFr"
+        android:hint="@string/string_et_hintDate"
+        android:inputType="text"
+        />
+
+    <EditText
+        android:id="@+id/etTime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/etDate"
+        android:layout_marginLeft="@dimen/dimen_sideMarginesInputFr"
+        android:layout_marginRight="@dimen/dimen_sideMarginesInputFr"
+        android:hint="@string/string_et_hintTime"
+        android:inputType="text"
+        />
+
+    <RadioGroup
+        android:id="@+id/rgTypesTodo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/etTime"
+        android:layout_marginLeft="@dimen/dimen_sideMarginesInputFr"
+        android:layout_marginRight="@dimen/dimen_sideMarginesInputFr"
+        android:orientation="horizontal">
+        <RadioButton
+            android:id="@+id/rbtnToDo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/dimen_sideMarginesInputFr"
+            android:layout_marginTop="@dimen/dimen_sideMarginesInputFr"
+            android:layout_marginLeft="@dimen/dimen_sideMarginesInputFr"
+            android:layout_marginRight="@dimen/dimen_sideMarginesInputFr"
+            android:text="@string/string_rbtnToDo"/>
+        <RadioButton
+            android:id="@+id/rbtnFuture"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/dimen_sideMarginesInputFr"
+            android:layout_marginTop="@dimen/dimen_sideMarginesInputFr"
+            android:layout_marginLeft="@dimen/dimen_sideMarginesInputFr"
+            android:layout_marginRight="@dimen/dimen_sideMarginesInputFr"
+            android:text="@string/string_rbtnFuture"/>
+    </RadioGroup>
+
+    <EditText
+        android:id="@+id/etDesc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/string_et_hintDesc"
+        android:layout_marginLeft="@dimen/dimen_sideMarginesInputFr"
+        android:layout_marginRight="@dimen/dimen_sideMarginesInputFr"
+        android:layout_below="@id/rgTypesTodo"
+        android:inputType="text"
+        />
+
+    <Button
+        android:id="@+id/btnPlan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/string_btnCreateToDo"
+        android:layout_marginLeft="@dimen/dimen_sideMarginesInputFr"
+        android:layout_marginRight="@dimen/dimen_sideMarginesInputFr"
+        android:layout_below="@id/etDesc"
+        />
+
+
+
+
+
+
+</RelativeLayout>
